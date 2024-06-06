@@ -3,7 +3,7 @@
 }
 #headers{
     position: relative;
-    left: 22%;
+    left: 27%;
     border-radius: 50%;
     border: 10px solid yellowgreen;
 }
@@ -21,9 +21,9 @@ header{
 
 #heding{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 130px;
+    font-size: 80px;
     position: relative;
-    left: 25%;
+    left: 30%;
     top: 30px;
     padding-bottom: 10px;
     vertical-align: top;
@@ -64,8 +64,8 @@ header{
 
 
 img{
-     width:200px;
-     height:200px;
+     width:150px;
+     height:150px;
      border-radius: 30px;
 }
 
