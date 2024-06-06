@@ -15,4 +15,13 @@ bOX MODELS:
 Position element:
     1) it was used to move element adter left, right, top and bottomm  values, beacause every element has by default Position:status that why element will never move after appling left,right,top and bottom value
 positionL
-    2)SOM
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+06/06/2024
+
+Background Imge property
+*opacity = it was used to make the element Background transprant
+            it value between 0  and 1
+
