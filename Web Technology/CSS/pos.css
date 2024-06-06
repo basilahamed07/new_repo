@@ -3,6 +3,7 @@
     margin: 0;
 }
 header{
+    position: fixed;
     background-color: blueviolet;
     color: green;
     padding: 20px;
@@ -28,7 +29,7 @@ span{
 
 nav{
     /* position: -webkit-sticky; */
-    position: sticky;
+    position: fixed;
     top: 0;
     justify-content: space-between;
     background-color: gray;
