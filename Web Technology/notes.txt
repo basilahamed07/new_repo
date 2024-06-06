@@ -14,4 +14,5 @@ bOX MODELS:
 
 Position element:
     1) it was used to move element adter left, right, top and bottomm  values, beacause every element has by default Position:status that why element will never move after appling left,right,top and bottom value
-positionL:s
+positionL
+    2)SOM
