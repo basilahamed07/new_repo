@@ -1,32 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 *{
- 
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style: normal;
+    font-size: 17px;
+}
+
+body{
+    background-color: wheat
 }
 #headers{
     position: relative;
-    left: 27%;
     border-radius: 50%;
     border: 10px solid yellowgreen;
 }
 
 header{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
     position: sticky;
     top: 0;
     margin: 0;
-    padding: 0;
+    padding-top: 25px;
     width: 100%;
     border: 5px solid yellow;
     border-radius: 30px;
-    background-color: aqua;
+    height: 200px;
 }
 
 #heding{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 80px;
     position: relative;
-    left: 30%;
     top: 30px;
     padding-bottom: 10px;
     vertical-align: top;
+    margin-left: 30px;
+    color: white;
 }
 
 
@@ -41,9 +53,12 @@ header{
 }
 
 .one img{
+    width:250px;
+     height:250px;
     float: left;
     margin: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
+
 }
 
 .two{
@@ -57,9 +72,12 @@ header{
 }
 
 .two img{
-    float: right;
+    width:250px;
+     height:250px;
     margin: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
+    float: right;
+    
 }
 
 
@@ -67,5 +85,11 @@ img{
      width:150px;
      height:150px;
      border-radius: 30px;
+     
 }
 
+p{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
