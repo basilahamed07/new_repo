@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>replace</title>
+   
+</head>
+<body>
+    
+    <textarea name="" id="mess"></textarea>
+    <label for="">Enter the replace text</label>
+    <input type="text" id="reolace">
+    <label for="">enter the new txt</label>
+    <input type="text" name="" id="newtext">
+    <button type="button" onclick="replace_single()">replace single text</button> <button type="button"> replace all text</button>
+
+    <script>
+        
+        function replace_single(){
+            let old_txt = document.getElementById("reolace").value
+            let new_txt = document.getElementById("newtext").value
+            let messgae = document.getElementById("mess").value
+            let final = messgae.replace("reolace","newtext")
+            document.getElementById("mess").innerHTML=final
+        }
+    </script>
+</body>
+</html>
