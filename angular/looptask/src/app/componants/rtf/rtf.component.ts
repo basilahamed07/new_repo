@@ -14,8 +14,15 @@ export class RtfComponent {
     this.students = new FormGroup(
       {
       fname:new FormControl("",[Validators.required,Validators.pattern("^[a-zA-Z ]{3,20}$")]),
-      password:new FormControl("",[Validators.required,Validators.pattern("^[a-zA-Z!@#$%^&*()_+0-9]{8,16}$")])
+      password:new FormControl("",[Validators.required,Validators.pattern("^[a-zA-Z!@#$%^&*()_+0-9  ]{8,16}$")]),
+      email:new FormControl("",[Validators.required,Validators.pattern("^[a-z0-9.@]{8,}$")])
     })
+
+
+  }
+
+  getData(){
+    console.log(this.students.value);
   }
   }
 

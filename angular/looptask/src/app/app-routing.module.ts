@@ -7,6 +7,8 @@ import { AngFormComponent } from './componants/ang-form/ang-form.component';
 import { UtfComponent } from './componants/utf/utf.component';
 import { TablesComponent } from './componants/tables/tables.component';
 import { CarBikeComponent } from './car-bike/car-bike.component';
+import { BreakfastComponent } from './componants/breakfast/breakfast.component';
+import { ProdactDashbordComponent } from './CRUD/prodact-dashbord/prodact-dashbord.component';
 
 const routes: Routes = [
 
@@ -30,7 +32,9 @@ const routes: Routes = [
       {path:"angularform",component:AngFormComponent},
       {path:"carbike",component:CarBikeComponent},
       {path:"uts",component:UtfComponent},
-      {path:"deatils",component:TablesComponent}
+      {path:"deatils",component:TablesComponent},
+      {path:"breakfast",component:BreakfastComponent},
+      {path:"persondata",component:ProdactDashbordComponent}
   ]},
   
   //windcard routing

@@ -13,7 +13,9 @@ import { NavComponent } from './componants/nav/nav.component';
 import { FooterComponent } from './componants/footer/footer.component';
 import { TablesComponent } from './componants/tables/tables.component';
 import {FormsModule, ReactiveFormsModule}  from '@angular/forms';
-
+import { BreakfastComponent } from './componants/breakfast/breakfast.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProdactDashbordComponent } from './CRUD/prodact-dashbord/prodact-dashbord.component';
 
 
 @NgModule({
@@ -27,13 +29,16 @@ import {FormsModule, ReactiveFormsModule}  from '@angular/forms';
     MainDashboardComponent,
     NavComponent,
     FooterComponent,
-    TablesComponent
+    TablesComponent,
+    BreakfastComponent,
+    ProdactDashbordComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
