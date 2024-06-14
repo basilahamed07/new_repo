@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormGroup,FormControl,Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-rtf',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class RtfComponent {
 
-}
+  students:any;
+
+  ngOnInit(){
+    this.students = new FormGroup(
+      {
+      fname:new FormControl("",[Validators.required,Validators.pattern("^[a-zA-Z ]{3,20}$")]),
+      password:new FormControl("",[Validators.required,Validators.pattern("^[a-zA-Z!@#$%^&*()_+0-9]{8,16}$")])
+    })
+  }
+  }
+

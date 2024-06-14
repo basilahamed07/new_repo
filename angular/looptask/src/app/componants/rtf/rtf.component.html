@@ -1,1 +1,16 @@
-<p>rtf works!</p>
+<form [formGroup]="students">
+    <label for="" class="form-label">Enter the name:</label>
+    <input type="text" name="fname" formControlName="fname" class="form-control">
+    <div class="alert alert-danger" *ngIf="students.get('fname').touched && students.get('fname').invalid">
+        <div *ngIf="students.get('fname').errors.required">This fiels is required</div>
+        <div *ngIf="students.get('fname').errors.pattern">fname is only character min-3 and max of 20</div>
+    </div>
+
+    <!-- // using the password -->
+    <label for="" class="form-label">Enter the password:</label>
+    <input type="password" name="password" formControlName="password" class="form-control">
+    <div class="alert alert-danger" *ngIf="students.get('password').touched && students.get('password').invalid">
+        <div *ngIf="students.get('password').errors.required">This fiels is required</div>
+        <div *ngIf="students.get('password').errors.pattern">password minimum 8 to 16 character</div>
+    </div>
+</form>

@@ -9,6 +9,12 @@ import { RtfComponent } from './componants/rtf/rtf.component';
 import { UtfComponent } from './componants/utf/utf.component';
 import { PagenotfoundComponent } from './componants/pagenotfound/pagenotfound.component';
 import { MainDashboardComponent } from './componants/main-dashboard/main-dashboard.component';
+import { NavComponent } from './componants/nav/nav.component';
+import { FooterComponent } from './componants/footer/footer.component';
+import { TablesComponent } from './componants/tables/tables.component';
+import {FormsModule, ReactiveFormsModule}  from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +24,16 @@ import { MainDashboardComponent } from './componants/main-dashboard/main-dashboa
     RtfComponent,
     UtfComponent,
     PagenotfoundComponent,
-    MainDashboardComponent
+    MainDashboardComponent,
+    NavComponent,
+    FooterComponent,
+    TablesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration()
