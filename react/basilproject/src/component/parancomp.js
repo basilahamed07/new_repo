@@ -14,31 +14,31 @@ class Parancomp extends Component {
              
         }
 
-        changethename = ()=>{
-            this.setState((prevState)=>({
-                salary:prevState.salary=1000, name:"basil"
-            }))
-        }
+        
 
 
     }
-
+    changethename = ()=>{
+        this.setState(({salary:this.state.salary+500000}))
     }
+
+   
     
-    render() 
-    {
+    render(){
+
         return<div>
 
                 <h2>This is parent component </h2>
                 <p>employee name is = {this.state.name}</p>
                 <p>employee salary was = {this.state.salary}</p>
-                <button onClick={()=> changethename()}></button>
+                <button type='button' onClick={()=>this.changethename()}>change</button>
 
                 <hr/>
                 <Childcomp name={this.state.name} salary={this.state.salary}/>
             </div>
         
     }
+}
 
 
 
