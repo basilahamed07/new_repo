@@ -1,6 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
-import Taggledimage from './task/Taggledimage';
+import MySliderComp from './component/MySliderComp';
+// import Multipleimage from './task/multipleimage';
+// import ClickCounterComp from './task/ClickCounterComp';
+// import Hoveronme from './task/Hoveronme';
+// import ClickCounterComp from './task/ClickCounterComp';
+// import Mycss from './component/mycss';
+// import Taggledimage from './task/Taggledimage';
 // import Parancomp from './component/parancomp';
 // import MyImages from './component/Myimages';
 // import Taggledimage from './task/Taggledimage';
@@ -43,7 +49,15 @@ function App() {
       {/* <Parancomp></Parancomp>
        */}
 
-       <Taggledimage/>
+       {/* <Taggledimage/> */}
+       {/* <Mycss></Mycss> */}
+       {/* <ClickCounterComp></ClickCounterComp> */}
+       {/* <ClickCounterComp> </ClickCounterComp>
+      <Hoveronme></Hoveronme> */}
+  {/* <Multipleimage/> */}
+
+  {/* <MySliderComp></MySliderComp> */}
+
     </div>
   );
 }

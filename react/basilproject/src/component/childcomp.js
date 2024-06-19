@@ -1,5 +1,5 @@
 import React from 'react'
-import parancomp from './parancomp'
+// import parancomp from './parancomp'
 const Childcomp = (props) => {
 
     return (

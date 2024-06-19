@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
-import imagesss from "../shared/images/Alps-Switzerland.webp"
+import React, { Component, Fragment } from 'react'
+
+// import { Fragment } from 'react'
+// import imagesss from "../shared/images/Alps-Switzerland.webp"
 class Taggledimage extends Component {
     constructor(){
         super()
@@ -7,7 +9,7 @@ class Taggledimage extends Component {
         this.state ={
             condiction:true,
             name:"car",
-            imgs:"https://wallpapers.com/images/hd/heavily-detailed-nissan-gt-r-4k-q3totukcp4n1nxkc.jpg"
+            imgs:"https://wallpapers.com/images/hd/heavily-detailed-nissan-gt-r-4k-q3totukcp4n1nxkc.jpg "
         } 
     }
      
@@ -26,11 +28,13 @@ class Taggledimage extends Component {
     }
 
     render(){
-        return <div>
+        return(
+         <Fragment>
             <img src={this.state.imgs} width="700px" height="400px"/>
             <h1>{this.state.name}</h1>
             <button onClick={()=>this.checking()}>Change the image here</button>
-        </div>
+        </Fragment>
+        )
     }
 }
 
