@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Parancomp from './component/parancomp';
+import Taggledimage from './task/Taggledimage';
+// import Parancomp from './component/parancomp';
 // import MyImages from './component/Myimages';
 // import Taggledimage from './task/Taggledimage';
 // import MyDetails from './task/MyDetails';
@@ -39,7 +40,10 @@ function App() {
         {/* <Taggledimage></Taggledimage> */}
 
       {/* <MyImages></MyImages> */}
-      <Parancomp></Parancomp>
+      {/* <Parancomp></Parancomp>
+       */}
+
+       <Taggledimage/>
     </div>
   );
 }
